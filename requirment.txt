@@ -1,0 +1,4 @@
+fast api
+google generative ai 
+install uvicorn
+language used html,js,python
