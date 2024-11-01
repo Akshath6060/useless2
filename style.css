@@ -1,0 +1,47 @@
+body {
+    font-family: 'Comic Sans MS', 'Arial', sans-serif;
+    background-color: #ffeb3b;
+    text-align: center;
+    padding: 50px;
+}
+
+.game-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    border: 5px dashed #ff5722;
+    position: relative;
+    overflow: hidden;
+}
+
+.parrot img {
+    max-width: 220px;
+    margin: 20px 0;
+    border-radius: 50%;
+    border: 5px solid #4caf50;
+}
+
+button {
+    padding: 20px 40px;
+    font-size: 1.5rem;
+    background-color: #673ab7;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background-color: #8e24aa;
+}
+
+#fortuneText {
+    font-size: 1.8rem;
+    color: #009688;
+    margin-top: 30px;
+    font-style: italic;
+}
